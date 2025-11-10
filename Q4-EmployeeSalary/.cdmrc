@@ -1,0 +1,11 @@
+# Show terminal + editor view
+playground-view: terminal-editor
+
+# Default tabs to open (inline syntax)
+tabs: ['README.md', 'main.py#1:1', 'test_lab.py#1:1']
+
+# Run button command — executes main.py automatically
+run-button: python3 main.py
+
+# Optional terminal startup messages
+terminals: ['echo "🚀 Welcome to Python Q4: Employee Salary Filter!"', 'echo "Click Run Code to test your solution."']
